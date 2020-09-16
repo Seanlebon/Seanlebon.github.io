@@ -1,0 +1,166 @@
+
+@font-face{
+    font-family: "Proxima Nova";
+    src:url('../fonts/proximanova-regular-webfont.woff') format('woff'),
+     url('../fonts/proximanova-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "Proxima Nova";
+    src: url('../fonts/proxima_nova_bold-webfont.woff2') format('woff2'),
+    url('../fonts/proxima_nova_bold-webfont.woff') format('woff');
+    font-weight: bold;
+
+}
+
+@font-face{
+    font-family: "Proxima Nova";
+    src: url('../fonts/proxima_nova_black-webfont.woff2') format('woff2'),
+         url('../fonts/proxima_nova_black-webfont.woff') format('woff');
+    font-weight: 200;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 105px;
+}
+
+body{
+    font-family: "Proxima Nova",sans-serif;
+}
+
+.btn-outline-primary:hover{
+    border-color: #172050;
+    background-color: #172050 !important;
+    color: white;
+}
+
+.logo{
+    font-weight: bold;
+    color: #172050 !important;
+}
+
+.logo-pic{
+    margin-bottom:10px;
+    margin-right: 10px;
+}
+
+.starting-section{
+    margin-top: 11vw;
+    width: 100%;
+    margin-bottom: 11%;    
+}
+
+.intro-animation{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 4vw;
+}
+
+.laptop{
+    width: 35vw;
+}
+
+.popup{
+    margin-bottom: 12vw;
+    width: 11vw;
+}
+
+.intro-text, .intro-p{
+    color: #172050 !important;
+}
+
+.intro-text{
+    font-size: 2.5em;
+}
+
+.intro-p{
+    font-size: 1.5em;
+}
+
+.blue-container{
+    text-align: center;
+
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    border-radius: 100px;
+    background-color: #172050;
+}
+
+.card-array-container{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-array-container > div{
+    margin-top: 3em;
+    flex-basis: 26%;
+}
+
+.contact-container{
+    text-align: left;
+    width: 80%;
+    color: #f47334;
+    border-radius: 20px;
+    margin-bottom: 2.5%;
+}
+
+.contact-container .big {
+    font-size: 3.5em;
+    margin-left: 3vw;
+    color: #172050;
+}
+
+.contact-container .big:hover {
+    color: #f47334;
+    transition: 0.15s;
+}
+.clipboard{
+    color: #172050;
+}
+.clipboard:hover{
+    color: #f47334;
+    transition: 0.12s;
+
+}
+.contact-container .title{
+    font-size: 4em;
+}
+
+.blue{
+    color: #172050;
+}
+
+footer{
+    width: 100%;
+    margin-left: 11%;
+}
+
+
+.scrolled{
+    transition:background 500ms;
+    -webkit-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.21);
+     box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.21);
+}
+
+/* large */
+@media ( max-width: 1080px) {
+    .card-array-container > div {
+      flex-basis: 34%;
+    }
+  }
+
+/* medium */
+@media ( max-width: 760px) {
+    .card-array-container > div {
+        flex-basis: 51%;
+    }
+}
