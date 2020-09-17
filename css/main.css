@@ -32,6 +32,9 @@ body{
     font-family: "Proxima Nova",sans-serif;
 }
 
+.btn-outline-primary{
+    border-width: 2px;
+}
 .btn-outline-primary:hover{
     border-color: #172050;
     background-color: #172050 !important;
@@ -135,8 +138,29 @@ body{
 }
 
 .blue{
-    color: #172050;
+    color: #172050 !important;
 }
+
+.carousel-indicators{   
+    margin:0 auto 0 auto;
+    width: 100%;
+    background-color: #172050 ;
+    opacity: 0.7;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f47334' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f47334' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+img .survive {
+    transform: scale(3.0);
+}
+
+
 
 footer{
     width: 100%;
