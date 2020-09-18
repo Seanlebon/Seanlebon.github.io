@@ -21,7 +21,9 @@
     font-weight: 200;
 }
 
-
+html,body{
+    overflow-x: hidden;
+}
 
 html{
     scroll-behavior: smooth;
@@ -30,11 +32,13 @@ html{
 
 body{
     font-family: "Proxima Nova",sans-serif;
+    margin-top: 11vw;
 }
 
 .btn-outline-primary{
     border-width: 2px;
 }
+
 .btn-outline-primary:hover{
     border-color: #172050;
     background-color: #172050 !important;
@@ -51,8 +55,11 @@ body{
     margin-right: 10px;
 }
 
+.navbar{
+    background-color: white !important;
+}
+
 .starting-section{
-    margin-top: 11vw;
     width: 100%;
     margin-bottom: 11%;    
 }
@@ -125,6 +132,8 @@ body{
     color: #f47334;
     transition: 0.15s;
 }
+
+
 .clipboard{
     color: #172050;
 }
@@ -137,6 +146,11 @@ body{
     font-size: 4em;
 }
 
+footer{
+    width: 100%;
+    margin-left: 11%;
+}
+
 .blue{
     color: #172050 !important;
 }
@@ -147,6 +161,7 @@ body{
     background-color: #172050 ;
     opacity: 0.7;
 }
+
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f47334' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
     
@@ -160,20 +175,28 @@ img .survive {
     transform: scale(3.0);
 }
 
-
-
-footer{
+.about-container{
     width: 100%;
-    margin-left: 11%;
+    background-color: #172050;
+    padding: 10vh 4vw 10vh 4vw;
+    margin-top: 10%;
+    margin-bottom: 17%;
+    color: white;
+    text-align: left;
+    border-radius: 60px;
 }
 
+.about-profile{
+    width: 60%;
+}
 
 .scrolled{
-    transition:background 500ms;
-    -webkit-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.21);
-    -moz-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.21);
-     box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.21);
+    transition: 0.3s;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);
 }
+
 
 /* large */
 @media ( max-width: 1080px) {
