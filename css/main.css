@@ -137,11 +137,13 @@ body{
 .clipboard{
     color: #172050;
 }
+
 .clipboard:hover{
     color: #f47334;
     transition: 0.12s;
-
+    cursor: pointer;;
 }
+
 .contact-container .title{
     font-size: 4em;
 }
@@ -196,6 +198,7 @@ img .survive {
     -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);
     box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);
 }
+
 
 
 /* large */
