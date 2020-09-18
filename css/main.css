@@ -291,8 +291,8 @@ img .survive {
     }
 }
 
-@media (max-width: 380px){
+@media (min-width: 100px){
     .line-animation{
-        margin-top: 2vh;
+        padding-top: 0.5vh;
     }
 }
