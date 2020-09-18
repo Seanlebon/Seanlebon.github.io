@@ -98,7 +98,7 @@ body{
     margin-bottom: 12vw;
     width: 10.8vw;
     animation:scale 2s ease-in-out forwards;
-    animation-delay: 1.4s;
+    animation-delay: 1s;
     margin-right: 5.5vw;
     transform: scale(0);
 }
