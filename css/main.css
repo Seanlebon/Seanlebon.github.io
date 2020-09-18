@@ -82,7 +82,12 @@ body{
 .line-animation path{
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: dash 4s ease-in forwards;
+   
+    -webkit-animation: dash 4s ease-in forwards;
+    -moz-animation: dash 4s ease-in forwards;
+    -ms-animation: dash 4s ease-in forwards;
+     -o-animation: dash 4s ease-in forwards;
+        animation: dash 4s ease-in forwards;
 }
 
 @keyframes dash {
@@ -97,7 +102,11 @@ body{
 .popup{
     margin-bottom: 12vw;
     width: 10.8vw;
-    animation:scale 2s ease-in-out forwards;
+    -webkit-animation:scale 2s ease-in-out forwards;
+    -moz-animation:scale 2s ease-in-out forwards;
+    -ms-animation:scale 2s ease-in-out forwards;
+     -o-animation:scale 2s ease-in-out forwards;
+     animation:scale 2s ease-in-out forwards;
     animation-delay: 1s;
     margin-right: 5.5vw;
     transform: scale(0);
