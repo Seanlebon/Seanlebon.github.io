@@ -247,7 +247,7 @@ img .survive {
         transform: rotate(11deg);
     }
 
-
+}
 @media ( max-width: 1480px) {
     .line-animation{
         margin-top: 4.5vh;
@@ -255,7 +255,6 @@ img .survive {
         transform: rotate(10deg);
     }
 }
-    
     
   
 @media ( max-width: 1080px) {
@@ -266,7 +265,7 @@ img .survive {
         margin-top: 2vh ;
     }
   
-
+}
 /* medium */
 @media ( max-width: 760px) {
     .card-array-container > div {
