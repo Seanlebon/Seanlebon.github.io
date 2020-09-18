@@ -71,13 +71,42 @@ body{
     padding-top: 4vw;
 }
 
+.line-animation{
+    position: absolute;
+    width: 32%;
+    margin-top: 3.3vh;
+    right: 35vw;
+    transform: rotate(10deg);
+}
+
+.line-animation path{
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 4s ease-in forwards;
+}
+
+@keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
 .laptop{
     width: 35vw;
 }
 
 .popup{
     margin-bottom: 12vw;
-    width: 11vw;
+    width: 10.8vw;
+    animation:scale 2s ease-in-out forwards;
+    animation-delay: 1.6s;
+    margin-right: 5.5vw;
+    transform: scale(0);
+}
+
+@keyframes scale{
+    0%{ transform: scale(0);}
+    75%{transform: scale(1.2);}
+    100%{transform: scale(1);}
 }
 
 .intro-text, .intro-p{
@@ -202,15 +231,54 @@ img .survive {
 
 
 /* large */
+
+@media(min-width:1980px){
+    .line-animation{
+        margin-top: 6vh;
+        margin-right: 1vh;
+        transform: rotate(11deg);
+    }
+}
+
+@media(max-width: 1980px){
+    .line-animation{
+        margin-top: 4.5vh;
+        margin-right: 1vh;
+        transform: rotate(11deg);
+    }
+
+
+@media ( max-width: 1480px) {
+    .line-animation{
+        margin-top: 4.5vh;
+        margin-right: 1vh;
+        transform: rotate(10deg);
+    }
+}
+    
+    
+  
 @media ( max-width: 1080px) {
     .card-array-container > div {
       flex-basis: 34%;
     }
-  }
+    .line-animation{
+        margin-top: 2vh ;
+    }
+  
 
 /* medium */
 @media ( max-width: 760px) {
     .card-array-container > div {
         flex-basis: 51%;
+    }
+
+    .intro-animation{
+        margin-top: 10vh;
+    }
+
+    .line-animation{
+        margin-top: 1.2vh ;
+        margin-left:1vw;
     }
 }
