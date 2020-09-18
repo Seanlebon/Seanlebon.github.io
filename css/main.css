@@ -290,3 +290,9 @@ img .survive {
         margin-left:1vw;
     }
 }
+
+@media (max-width: 380px){
+    .line-animation{
+        margin-top: 2vh;
+    }
+}
