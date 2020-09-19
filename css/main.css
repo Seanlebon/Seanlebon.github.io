@@ -284,15 +284,11 @@ img .survive {
     .intro-animation{
         margin-top: 10vh;
     }
-
+    .popup{
+        display: none;
+    }
     .line-animation{
-        margin-top: 1.2vh ;
-        margin-left:1vw;
+        display:none;
     }
 }
 
-@media (min-width: 100px){
-    .line-animation{
-        padding-top: 0.5vh;
-    }
-}
