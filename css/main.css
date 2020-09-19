@@ -76,7 +76,7 @@ body{
     width: 32%;
     margin-top: 3.3vh;
     right: 35vw;
-    transform: rotate(10deg);
+    transform: rotate(9deg);
 }
 
 .line-animation path{
@@ -211,9 +211,6 @@ footer{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f47334' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
-img .survive {
-    transform: scale(3.0);
-}
 
 .about-container{
     width: 100%;
@@ -245,23 +242,15 @@ img .survive {
     .line-animation{
         margin-top: 6vh;
         margin-right: 1vh;
-        transform: rotate(11deg);
+        transform: rotate(deg);
     }
 }
 
-@media(max-width: 1980px){
+@media (max-width: 1480px) {
     .line-animation{
-        margin-top: 4.5vh;
+        margin-top: 3.5vh;
         margin-right: 1vh;
-        transform: rotate(11deg);
-    }
-
-}
-@media ( max-width: 1480px) {
-    .line-animation{
-        margin-top: 4.5vh;
-        margin-right: 1vh;
-        transform: rotate(10deg);
+        transform: rotate(8deg);
     }
 }
     
@@ -276,7 +265,7 @@ img .survive {
   
 }
 /* medium */
-@media ( max-width: 760px) {
+@media ( max-width: 720px) {
     .card-array-container > div {
         flex-basis: 51%;
     }
