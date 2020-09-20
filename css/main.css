@@ -61,6 +61,7 @@ body{
 
 .starting-section{
     width: 100%;
+ 
     margin-bottom: 11%;    
 }
 
@@ -74,7 +75,7 @@ body{
 .line-animation{
     position: absolute;
     width: 32%;
-    margin-top: 3.3vh;
+    margin-top: 2em;
     right: 35vw;
     transform: rotate(9deg);
 }
@@ -238,31 +239,11 @@ footer{
 
 /* large */
 
-@media(min-width:1980px){
-    .line-animation{
-        margin-top: 6vh;
-        margin-right: 1vh;
-        transform: rotate(deg);
-    }
-}
-
-@media (max-width: 1480px) {
-    .line-animation{
-        margin-top: 3.5vh;
-        margin-right: 1vh;
-        transform: rotate(8deg);
-    }
-}
-    
   
 @media ( max-width: 1080px) {
     .card-array-container > div {
       flex-basis: 34%;
     }
-    .line-animation{
-        margin-top: 2.5vh ;
-    }
-  
 }
 /* medium */
 @media ( max-width: 720px) {
@@ -281,3 +262,10 @@ footer{
     }
 }
 
+@media(min-width:2380px){
+    .line-animation{
+        width: 29%;
+        margin-top: 3em;
+        right: 37vw;
+    }
+}
