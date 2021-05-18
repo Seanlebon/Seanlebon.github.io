@@ -221,11 +221,13 @@ footer{
     margin-bottom: 17%;
     color: white;
     text-align: left;
-    border-radius: 60px;
+    border-radius: 20px;
+
 }
 
 .about-profile{
-    width: 60%;
+    width: 80%;
+    border-radius: 5%;
 }
 
 .scrolled{
